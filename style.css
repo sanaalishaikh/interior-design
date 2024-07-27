@@ -782,12 +782,32 @@ input.sub-btn {
     }
 }
 
-@media (max-width:580px) {
-    .right-text h2 {
-        font-size: 35px;
-        margin-bottom: 30px;
-        transition: .3s;
+@media (max-width: 768px) {
+    .main-serv {
+        flex-direction: column;
+        align-items: center;
     }
+
+    .box {
+        width: 90%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .box {
+        width: 100%;
+        margin: 10px 0; 
+    }
+
+    .serv-text h5 {
+        font-size: 1.1em; 
+    }
+
+    .serv-text p {
+        font-size: 0.9em; 
+        line-height: 1.5; 
+    }
+}
 
     .about-text h1 {
         font-size: 30px;
