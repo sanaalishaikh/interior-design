@@ -679,8 +679,7 @@ input.sub-btn {
     header {
         padding: 30px 5%;
         transition: .3s;
-        flex-direction: column;
-        align-items: flex-start;
+   
     }
 
     section {
