@@ -20,6 +20,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 30px 12%;
+     overflow: hidden;
 }
 
 .logo img {
@@ -40,6 +41,7 @@ header {
     text-transform: uppercase;
     padding: 10px 25px;
     transition: all .42s;
+     float: left;
 }
 
 .navlist .active {
