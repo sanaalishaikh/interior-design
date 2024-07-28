@@ -675,10 +675,12 @@ input.sub-btn {
     letter-spacing: 2px;
 }
 
-@media (max-width:1400px) {
+@media (max-width:768px) {
     header {
         padding: 30px 5%;
         transition: .3s;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     section {
