@@ -675,7 +675,7 @@ input.sub-btn {
     letter-spacing: 2px;
 }
 
-@media (max-width:768px) {
+@media (max-width:1400px) {
     header {
         padding: 30px 5%;
         transition: .3s;
